@@ -1,0 +1,94 @@
+/* naviation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 3px 15px;
+}
+@media (max-width:361px) {
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 2px 8px;
+    }
+}
+/* home */
+#home{
+    padding: 5px 40px;
+}
+@media (max-width:435px) {
+    #home{
+        padding: 3px 20px;
+        height: 329px;
+    }
+    #home::before{
+        height: 436px;
+    }
+    
+}
+#home p{
+    font-size: 1rem;
+}
+@media (max-width:435px) {
+    #home p{
+        font-size: 0.7rem;
+    }
+    
+}
+/* sevices */
+#services{
+    flex-direction: column;
+}
+#services .box img {
+    height: 100px;
+}
+#services .box h2 {
+    font-size: 1rem;
+}
+#services .box {
+    font-size: 0.7rem;
+}
+@media (max-width:435px){
+    #services {
+        margin: 6px 5px;
+    }
+    
+}
+
+
+/* clients */
+
+@media (max-width:435px) {
+    #clients img {
+        height: 80px;
+    }
+    
+    
+}
+
+/* utility  */
+.h-primary {
+    font-size: 2rem;
+    padding: 12px;
+}
+@media (max-width:435px) {
+    
+    .h-primary {
+        font-size: 1rem;
+        padding: 6px;
+    }
+}
+.btn{
+    font-size: 1rem;
+}
+@media (max-width:435px) {
+    
+    .btn{
+        font-size: 0.8rem;
+    }
+}
+.h-secondary{
+    font-size: 0.85rem;
+    padding: 6px;
+
+}
